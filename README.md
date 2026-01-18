@@ -1,11 +1,11 @@
 **Forked changes:**
-${c1,2,...} changed to $1,2,... for fastfetch compatability. 
+* ${c1,2,...} changed to $1,2,... for fastfetch compatability. 
 
 **Installation:**
-Add .txt file to /home/usr/.config/fastfetch
-In fastfetch config.jsonc,
-change "source" to .txt directory location,
-customise colours
+* Add .txt file to /home/usr/.config/fastfetch
+* In fastfetch config.jsonc,
+* change "source" to .txt directory location,
+* customise colours
 
 e.g: 
 
