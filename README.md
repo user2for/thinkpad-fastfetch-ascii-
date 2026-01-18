@@ -9,7 +9,8 @@
 
 e.g: 
 
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+```
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "type": "file",
     "source": "~/.config/fastfetch/ibm-tp-h.txt",
@@ -18,7 +19,8 @@ e.g:
     "2": "green",
     "3": "blue",
     "4": "white",
-
+```
+ 
 
 
 
