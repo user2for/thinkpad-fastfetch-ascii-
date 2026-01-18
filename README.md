@@ -1,3 +1,29 @@
+**Forked changes:**
+${c1,2,...} changed to $1,2,... for fastfetch compatability. 
+
+**Installation:**
+Add .txt file to /home/usr/.config/fastfetch
+In fastfetch config.jsonc,
+change "source" to .txt directory location,
+customise colours
+
+e.g: 
+
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/ibm-tp-h.txt",
+    "color": { 
+    "1": "red",
+    "2": "green",
+    "3": "blue",
+    "4": "white",
+
+
+
+
+**Original Description:**
+
 ## ThinkPad ASCII (actually, Unicode) logos for all your terminal needs ##
 
 * Install [HyFetch](https://github.com/hykilpikonna/hyfetch) (an updated fork of the original [Neofetch](https://github.com/dylanaraps/neofetch) with 24-bit color support)
